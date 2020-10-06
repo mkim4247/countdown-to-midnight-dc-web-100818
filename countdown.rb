@@ -2,7 +2,6 @@
 
 def countdown(number)
   phrase = "#{number} SECOND(S)!"
-  x = number
   while x > 1
     puts phrase
     x -= 1
